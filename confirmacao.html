@@ -1,0 +1,40 @@
+<div class="title">
+<h1>Verifique seu endereço de Email</h1>
+</div>
+<div class="par">
+<p>Enviamos um link de confirmação para o email fornecido.<br> 
+    Por favor, acesse o link para ativar a sua conta. Verifique também sua caixa de Spam,<br>
+     e caso não receba o email em alguns minutos, entre em contato com o suporte.</p>
+
+<p>Já confirmou?</p>
+</div>
+<div class="button">
+<a href="{% url 'account_login' %}">Fazer Login</a>
+</div>
+
+<style>
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title {
+    margin: auto;
+    padding: 30px 500px;
+}
+.par {
+    text-align: center;
+    
+}
+.button {
+  background-color:#0092D6;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-left: 700px;
+  
+}
+</style>
